@@ -34,23 +34,23 @@ puts "test" != "testing"
 puts "this will be false"
 puts "test" == 2
 
-puts "this will be false"
-puts not (true and false)
+#puts "this will be true"
+#puts not (true and false)
 
-puts "this will be false"
-puts not (1 == 1 and 0 != 1)
+#puts "this will be false"
+#puts not (1 == 1 and 0 != 1)
 
-puts "this will be false"
-puts not (10 == 1 or 1000 == 1000)
+#puts "this will be false"
+#puts not (10 == 1 or 1000 == 1000)
 
-puts "this will be true"
-puts not (1 != 10 or 3 == 4)
+#puts "this will be true"
+#puts not (1 != 10 or 3 == 4)
 
-puts "this will be true"
-puts not ("testing" == "testing" and "Zed" == "cool guy")
+#puts "this will be true"
+#puts not ("testing" == "testing" and "Zed" == "cool guy")
 
-puts "this will be true"
-puts 1 == 1 and not ("testing" and "Zed" == "Cool Guy")
+#puts "this will be true"
+#puts 1 == 1 and not ("testing" and "Zed" == "Cool Guy")
 
 puts "this will be false"
 puts "chunky" == "bacon" and not (3 == 4 or 3 == 3)
